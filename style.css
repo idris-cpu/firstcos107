@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+    width: 95%;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:400px) {
+    nav{
+        flex-direction: column;
+    }
+}
+nav .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    float: left;
+    /* margin-left: 30px; */
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+}
+nav .logo span{
+    color: crimson;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+     
+}
+li{
+    display: inline;
+    font-weight: bold;
+    margin-inline-end: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+li a:hover{
+    color: crimson;
+}
+span{
+    color: crimson;
+}
+.about{
+    margin-top: 70px;
+}
+.homepage{
+    margin-top: 70px;
+    font-size: 24px;
+}
+.courses{
+    margin-top: 70px;
+    font-size: 24px;
+}
+
+.courses li{
+    display: list-item;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.contact p{
+    margin: 15px;
+}
